@@ -12,13 +12,17 @@ Let’s calculate a few values manually to see how this works:
    \]
 3. \( n = 3 \):
    \[
-   $$S(3) = (S(2) + 2) \mod 3 = (1 + 2) \mod 3 = 0 \Rightarrow S(3) = 3.$$
+   $$
+\begin{align}
+   S(3) = (S(2) + 2) \mod 3 = (1 + 2) \mod 3 = 0 \Rightarrow S(3) = 3.
+\end{align}
+   $$
    \]
-4. \( n = 4 \):
+5. \( n = 4 \):
    \[
    S(4) = (S(3) + 2) \mod 4 = (3 + 2) \mod 4 = 1.
    \]
-5. \( n = 5 \):
+6. \( n = 5 \):
    \[
    S(5) = (S(4) + 2) \mod 5 = (1 + 2) \mod 5 = 3.
    \]
