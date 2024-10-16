@@ -3,9 +3,9 @@
 Let’s calculate a few values manually to see how this works:
 
 1. \( n = 1 \):
-   \[
+   $$\[
    S(1) = 1.
-   \]
+   \]$$
 2. \( n = 2 \):
    \[
    S(2) = (S(1) + 2) \mod 2 = (1 + 2) \mod 2 = 1.
